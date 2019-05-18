@@ -1,8 +1,0 @@
-https://blog.csdn.net/u012604745/article/details/80609258
-~~~~是不是只有mac是这样～～去windows上试试～～～～
-很多小伙伴在Idea中配置了如图Maven的setting.xml和repository的路径，发现不起作用。确实，不管你在Idea中配置的是什么，Maven都会去它默认的地方 ${user.home}/.m2/setting.xml 找setting文件，然后根据setting文件中的配置去找repository仓库。
-
-所以对于Maven的属性配置都要写在 ${user.home}/.m2/setting.xml 中。
-
-本地仓库：<localRepository>E:/maven/repository</localRepository> 
-~~~~
